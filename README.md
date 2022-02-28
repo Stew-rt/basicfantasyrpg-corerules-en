@@ -7,6 +7,9 @@ As the core system, this module is not yet available via FoundryVTT, but it can 
 
 https://github.com/Stew-rt/basicfantasyrpg-corerules-en/releases/latest/download/module.json
 
+## Notes on using this module
+I recommend ticking "Keep Document ID's" when importing, this will allow the links to RollTables referenced in some of the spell descriptions to work.
+
 ## Early Development
 Data entry takes ages, so this pack currently covers:
 * Equipment

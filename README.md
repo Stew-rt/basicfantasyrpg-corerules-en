@@ -6,3 +6,12 @@ This is a content pack for [Basic Fantasy RPG system for Foundry VTT](https://ww
 As the core system, this module is not yet available via FoundryVTT, but it can be manually added by using the manifest link below:
 
 https://github.com/Stew-rt/basicfantasyrpg-corerules-en/releases/latest/download/module.json
+
+## Early Development
+Data entry takes ages, so this pack currently covers:
+* Equipment
+* Weapons
+* Armor & Shields
+* Spells
+
+Monsters are being worked on, but it's eating a fair amount of time to do so.

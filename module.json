@@ -2,7 +2,7 @@
   "name": "basicfantasyrpg-corerules-en",
   "title": "Basic Fantasy RPG Core Rules",
   "description": "Content from Basic Fantasy Role-Playing Game Core Rules",
-  "authors": ["orffen", "Stew-rt"],
+  "authors": ["Orffen", "Stew-rt"],
   "version": "Populated by github workflow",
   "systems": ["basicfantasyrpg"],
   "minimumCoreVersion": "0.8.9",

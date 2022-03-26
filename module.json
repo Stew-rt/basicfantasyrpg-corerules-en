@@ -2,9 +2,14 @@
   "name": "basicfantasyrpg-corerules-en",
   "title": "Basic Fantasy RPG Core Rules",
   "description": "Content from Basic Fantasy Role-Playing Game Core Rules",
-  "authors": ["Orffen", "Stew-rt"],
+  "authors": [
+    "Orffen",
+    "Stew-rt"
+  ],
   "version": "Populated by github workflow",
-  "systems": ["basicfantasyrpg"],
+  "systems": [
+    "basicfantasyrpg"
+  ],
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "packs": [
@@ -74,35 +79,185 @@
       "path": "packs/spells-magic-user-1st-level.db",
       "entity": "Item"
     },
-        {
+    {
       "name": "spells-magic-user-2nd-level",
       "label": "Spells Magic-User 2nd Level",
       "path": "packs/spells-magic-user-2nd-level.db",
       "entity": "Item"
     },
-        {
+    {
       "name": "spells-magic-user-3rd-level",
       "label": "Spells Magic-User 3rd Level",
       "path": "packs/spells-magic-user-3rd-level.db",
       "entity": "Item"
     },
-        {
+    {
       "name": "spells-magic-user-4th-level",
       "label": "Spells Magic-User 4th Level",
       "path": "packs/spells-magic-user-4th-level.db",
       "entity": "Item"
     },
-        {
+    {
       "name": "spells-magic-user-5th-level",
       "label": "Spells Magic-User 5th Level",
       "path": "packs/spells-magic-user-5th-level.db",
       "entity": "Item"
     },
-        {
+    {
       "name": "spells-magic-user-6th-level",
       "label": "Spells Magic-User 6th Level",
       "path": "packs/spells-magic-user-6th-level.db",
       "entity": "Item"
+    },
+    {
+      "name": "beasts-of-burdon",
+      "label": "Beasts of Burdon",
+      "path": "packs/beasts-of-burdon.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-animals",
+      "label": "Monsters - Animals",
+      "path": "packs/monsters-animals.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-aquatic",
+      "label": "Monsters - Aquatic",
+      "path": "packs/monsters-aquatic.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-arachnid",
+      "label": "Monsters - Arachnid",
+      "path": "packs/monsters-arachnid.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-bats",
+      "label": "Monsters - Bats",
+      "path": "packs/monsters-bats.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-bears",
+      "label": "Monsters - Bears",
+      "path": "packs/monsters-bears.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-birds",
+      "label": "Monsters - Birds",
+      "path": "packs/monsters-birds.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-canine",
+      "label": "Monsters - Canine",
+      "path": "packs/monsters-canine.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-construct",
+      "label": "Monsters - Construct",
+      "path": "packs/monsters-construct.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-dinosaur",
+      "label": "Monsters - Dinosaur",
+      "path": "packs/monsters-dinosaur.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-dragons",
+      "label": "Monsters - Dragons",
+      "path": "packs/monsters-dragons.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-elemental-being",
+      "label": "Monsters - Elemental Being",
+      "path": "packs/monsters-elemental-being.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-equine",
+      "label": "Monsters - Equine",
+      "path": "packs/monsters-equine.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-fairy-kind",
+      "label": "Monsters - Fairy Kind",
+      "path": "packs/monsters-fairy-kind.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-fantastic",
+      "label": "Monsters - Fantastic",
+      "path": "packs/monsters-fantastic.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-fauna",
+      "label": "Monsters - Fauna",
+      "path": "packs/monsters-fauna.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-feline",
+      "label": "Monsters - Feline",
+      "path": "packs/monsters-feline.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-giants",
+      "label": "Monsters - Giants",
+      "path": "packs/monsters-giants.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-humanoid",
+      "label": "Monsters - Humanoid",
+      "path": "packs/monsters-humanoid.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-insects",
+      "label": "Monsters - Insects",
+      "path": "packs/monsters-insects.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-lizards",
+      "label": "Monsters - Lizards",
+      "path": "packs/monsters-lizards.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-lycanthrope",
+      "label": "Monsters - Lycanthrope",
+      "path": "packs/monsters-lycanthrope.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-simple-life",
+      "label": "Monsters - Simple Life",
+      "path": "packs/monsters-simple-life.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-snakes",
+      "label": "Monsters - Snakes",
+      "path": "packs/monsters-snakes.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "monsters-undead",
+      "label": "Monsters - Undead",
+      "path": "packs/monsters-undead.db",
+      "entity": "Actor"
     }
   ],
   "dependencies": [

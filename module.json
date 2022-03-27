@@ -258,6 +258,42 @@
       "label": "Monsters - Undead",
       "path": "packs/monsters-undead.db",
       "entity": "Actor"
+    },
+    {
+      "name": "abilities-thief",
+      "label": "Abilities Thief",
+      "path": "packs/abilities-thief.db",
+      "entity": "Item"
+    },
+    {
+      "name": "opening-doors",
+      "label": "Opening Doors",
+      "path": "packs/opening-doors.db",
+      "entity": "Item"
+    },
+    {
+      "name": "special-abilities-dwarf",
+      "label": "Special Abilities Dwarf",
+      "path": "packs/special-abilities-dwarf.db",
+      "entity": "Item"
+    },
+    {
+      "name": "special-abilities-elf",
+      "label": "Special Abilities Elf",
+      "path": "packs/special-abilities-elf.db",
+      "entity": "Item"
+    },
+    {
+      "name": "special-abilities-halfling",
+      "label": "Special Abilities Halfling",
+      "path": "packs/special-abilities-halfling.db",
+      "entity": "Item"
+    },
+    {
+      "name": "special-abilities-human",
+      "label": "Special Abilities Human",
+      "path": "packs/special-abilities-human.db",
+      "entity": "Item"
     }
   ],
   "dependencies": [

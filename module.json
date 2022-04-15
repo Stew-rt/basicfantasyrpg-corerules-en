@@ -7,9 +7,7 @@
     "Stew-rt"
   ],
   "version": "Populated by github workflow",
-  "systems": [
-    "basicfantasyrpg"
-  ],
+  "system": "basicfantasyrpg",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "9",
   "packs": [
@@ -17,283 +15,283 @@
       "name": "armor-and-shields",
       "label": "Armor and Shields",
       "path": "packs/armor-and-shields.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "equipment",
       "label": "Equipment",
       "path": "packs/equipment.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "weapons",
       "label": "Weapons",
       "path": "packs/weapons.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spell-effects",
       "label": "Spell Effects",
       "path": "packs/spell-effects.db",
-      "entity": "RollTable"
+      "type": "RollTable"
     },
     {
       "name": "spells-clerical-1st-level",
       "label": "Spells Clerical 1st Level",
       "path": "packs/spells-clerical-1st-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-clerical-2nd-level",
       "label": "Spells Clerical 2nd Level",
       "path": "packs/spells-clerical-2nd-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-clerical-3rd-level",
       "label": "Spells Clerical 3rd Level",
       "path": "packs/spells-clerical-3rd-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-clerical-4th-level",
       "label": "Spells Clerical 4th Level",
       "path": "packs/spells-clerical-4th-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-clerical-5th-level",
       "label": "Spells Clerical 5th Level",
       "path": "packs/spells-clerical-5th-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-clerical-6th-level",
       "label": "Spells Clerical 6th Level",
       "path": "packs/spells-clerical-6th-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-magic-user-1st-level",
       "label": "Spells Magic-User 1st Level",
       "path": "packs/spells-magic-user-1st-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-magic-user-2nd-level",
       "label": "Spells Magic-User 2nd Level",
       "path": "packs/spells-magic-user-2nd-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-magic-user-3rd-level",
       "label": "Spells Magic-User 3rd Level",
       "path": "packs/spells-magic-user-3rd-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-magic-user-4th-level",
       "label": "Spells Magic-User 4th Level",
       "path": "packs/spells-magic-user-4th-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-magic-user-5th-level",
       "label": "Spells Magic-User 5th Level",
       "path": "packs/spells-magic-user-5th-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "spells-magic-user-6th-level",
       "label": "Spells Magic-User 6th Level",
       "path": "packs/spells-magic-user-6th-level.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "beasts-of-burdon",
       "label": "Beasts of Burdon",
       "path": "packs/beasts-of-burdon.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-animals",
       "label": "Monsters - Animals",
       "path": "packs/monsters-animals.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-aquatic",
       "label": "Monsters - Aquatic",
       "path": "packs/monsters-aquatic.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-arachnid",
       "label": "Monsters - Arachnid",
       "path": "packs/monsters-arachnid.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-bats",
       "label": "Monsters - Bats",
       "path": "packs/monsters-bats.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-bears",
       "label": "Monsters - Bears",
       "path": "packs/monsters-bears.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-birds",
       "label": "Monsters - Birds",
       "path": "packs/monsters-birds.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-canine",
       "label": "Monsters - Canine",
       "path": "packs/monsters-canine.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-construct",
       "label": "Monsters - Construct",
       "path": "packs/monsters-construct.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-dinosaur",
       "label": "Monsters - Dinosaur",
       "path": "packs/monsters-dinosaur.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-dragons",
       "label": "Monsters - Dragons",
       "path": "packs/monsters-dragons.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-elemental-being",
       "label": "Monsters - Elemental Being",
       "path": "packs/monsters-elemental-being.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-equine",
       "label": "Monsters - Equine",
       "path": "packs/monsters-equine.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-fairy-kind",
       "label": "Monsters - Fairy Kind",
       "path": "packs/monsters-fairy-kind.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-fantastic",
       "label": "Monsters - Fantastic",
       "path": "packs/monsters-fantastic.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-fauna",
       "label": "Monsters - Fauna",
       "path": "packs/monsters-fauna.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-feline",
       "label": "Monsters - Feline",
       "path": "packs/monsters-feline.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-giants",
       "label": "Monsters - Giants",
       "path": "packs/monsters-giants.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-humanoid",
       "label": "Monsters - Humanoid",
       "path": "packs/monsters-humanoid.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-insects",
       "label": "Monsters - Insects",
       "path": "packs/monsters-insects.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-lizards",
       "label": "Monsters - Lizards",
       "path": "packs/monsters-lizards.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-lycanthrope",
       "label": "Monsters - Lycanthrope",
       "path": "packs/monsters-lycanthrope.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-simple-life",
       "label": "Monsters - Simple Life",
       "path": "packs/monsters-simple-life.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-snakes",
       "label": "Monsters - Snakes",
       "path": "packs/monsters-snakes.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "monsters-undead",
       "label": "Monsters - Undead",
       "path": "packs/monsters-undead.db",
-      "entity": "Actor"
+      "type": "Actor"
     },
     {
       "name": "abilities-thief",
       "label": "Abilities Thief",
       "path": "packs/abilities-thief.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "opening-doors",
       "label": "Opening Doors",
       "path": "packs/opening-doors.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "special-abilities-dwarf",
       "label": "Special Abilities Dwarf",
       "path": "packs/special-abilities-dwarf.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "special-abilities-elf",
       "label": "Special Abilities Elf",
       "path": "packs/special-abilities-elf.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "special-abilities-halfling",
       "label": "Special Abilities Halfling",
       "path": "packs/special-abilities-halfling.db",
-      "entity": "Item"
+      "type": "Item"
     },
     {
       "name": "special-abilities-human",
       "label": "Special Abilities Human",
       "path": "packs/special-abilities-human.db",
-      "entity": "Item"
+      "type": "Item"
     }
   ],
   "dependencies": [

@@ -1,297 +1,354 @@
 {
   "name": "basicfantasyrpg-corerules-en",
+  "id": "basicfantasyrpg-corerules-en",
   "title": "Basic Fantasy RPG Core Rules",
   "description": "Content from Basic Fantasy Role-Playing Game Core Rules",
   "authors": [
-    "Orffen",
-    "Stew-rt"
+    {
+      "name": "Orffen"
+    },
+    {
+      "name": "Stew-rt"
+    },
+    {
+      "name": "TotallyBanjaxed"
+    }
   ],
   "version": "Populated by github workflow",
-  "system": "basicfantasyrpg",
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "9",
+  "system": ["basicfantasyrpg"],
+  "compatibility": {
+    "minimum": 9,
+    "verified": 10
+  },
   "packs": [
     {
       "name": "armor-and-shields",
       "label": "Armor and Shields",
       "path": "packs/armor-and-shields.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "equipment",
       "label": "Equipment",
       "path": "packs/equipment.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "weapons",
       "label": "Weapons",
       "path": "packs/weapons.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spell-effects",
       "label": "Spell Effects",
       "path": "packs/spell-effects.db",
-      "type": "RollTable"
+      "type": "RollTable",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-clerical-1st-level",
       "label": "Spells Clerical 1st Level",
       "path": "packs/spells-clerical-1st-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-clerical-2nd-level",
       "label": "Spells Clerical 2nd Level",
       "path": "packs/spells-clerical-2nd-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-clerical-3rd-level",
       "label": "Spells Clerical 3rd Level",
       "path": "packs/spells-clerical-3rd-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-clerical-4th-level",
       "label": "Spells Clerical 4th Level",
       "path": "packs/spells-clerical-4th-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-clerical-5th-level",
       "label": "Spells Clerical 5th Level",
       "path": "packs/spells-clerical-5th-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-clerical-6th-level",
       "label": "Spells Clerical 6th Level",
       "path": "packs/spells-clerical-6th-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-magic-user-1st-level",
       "label": "Spells Magic-User 1st Level",
       "path": "packs/spells-magic-user-1st-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-magic-user-2nd-level",
       "label": "Spells Magic-User 2nd Level",
       "path": "packs/spells-magic-user-2nd-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-magic-user-3rd-level",
       "label": "Spells Magic-User 3rd Level",
       "path": "packs/spells-magic-user-3rd-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-magic-user-4th-level",
       "label": "Spells Magic-User 4th Level",
       "path": "packs/spells-magic-user-4th-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-magic-user-5th-level",
       "label": "Spells Magic-User 5th Level",
       "path": "packs/spells-magic-user-5th-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "spells-magic-user-6th-level",
       "label": "Spells Magic-User 6th Level",
       "path": "packs/spells-magic-user-6th-level.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "beasts-of-burdon",
       "label": "Beasts of Burdon",
       "path": "packs/beasts-of-burdon.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-animals",
       "label": "Monsters - Animals",
       "path": "packs/monsters-animals.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-aquatic",
       "label": "Monsters - Aquatic",
       "path": "packs/monsters-aquatic.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-arachnid",
       "label": "Monsters - Arachnid",
       "path": "packs/monsters-arachnid.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-bats",
       "label": "Monsters - Bats",
       "path": "packs/monsters-bats.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-bears",
       "label": "Monsters - Bears",
       "path": "packs/monsters-bears.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-birds",
       "label": "Monsters - Birds",
       "path": "packs/monsters-birds.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-canine",
       "label": "Monsters - Canine",
       "path": "packs/monsters-canine.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-construct",
       "label": "Monsters - Construct",
       "path": "packs/monsters-construct.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-dinosaur",
       "label": "Monsters - Dinosaur",
       "path": "packs/monsters-dinosaur.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-dragons",
       "label": "Monsters - Dragons",
       "path": "packs/monsters-dragons.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-elemental-being",
       "label": "Monsters - Elemental Being",
       "path": "packs/monsters-elemental-being.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-equine",
       "label": "Monsters - Equine",
       "path": "packs/monsters-equine.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-fairy-kind",
       "label": "Monsters - Fairy Kind",
       "path": "packs/monsters-fairy-kind.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-fantastic",
       "label": "Monsters - Fantastic",
       "path": "packs/monsters-fantastic.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-fauna",
       "label": "Monsters - Fauna",
       "path": "packs/monsters-fauna.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-feline",
       "label": "Monsters - Feline",
       "path": "packs/monsters-feline.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-giants",
       "label": "Monsters - Giants",
       "path": "packs/monsters-giants.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-humanoid",
       "label": "Monsters - Humanoid",
       "path": "packs/monsters-humanoid.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-insects",
       "label": "Monsters - Insects",
       "path": "packs/monsters-insects.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-lizards",
       "label": "Monsters - Lizards",
       "path": "packs/monsters-lizards.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-lycanthrope",
       "label": "Monsters - Lycanthrope",
       "path": "packs/monsters-lycanthrope.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-simple-life",
       "label": "Monsters - Simple Life",
       "path": "packs/monsters-simple-life.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-snakes",
       "label": "Monsters - Snakes",
       "path": "packs/monsters-snakes.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "monsters-undead",
       "label": "Monsters - Undead",
       "path": "packs/monsters-undead.db",
-      "type": "Actor"
+      "type": "Actor",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "abilities-thief",
       "label": "Abilities Thief",
       "path": "packs/abilities-thief.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "opening-doors",
       "label": "Opening Doors",
       "path": "packs/opening-doors.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "special-abilities-dwarf",
       "label": "Special Abilities Dwarf",
       "path": "packs/special-abilities-dwarf.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "special-abilities-elf",
       "label": "Special Abilities Elf",
       "path": "packs/special-abilities-elf.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "special-abilities-halfling",
       "label": "Special Abilities Halfling",
       "path": "packs/special-abilities-halfling.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     },
     {
       "name": "special-abilities-human",
       "label": "Special Abilities Human",
       "path": "packs/special-abilities-human.db",
-      "type": "Item"
+      "type": "Item",
+      "system": "basicfantasyrpg"
     }
   ],
   "dependencies": [

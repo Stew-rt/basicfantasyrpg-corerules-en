@@ -134,9 +134,9 @@
       "system": "basicfantasyrpg"
     },
     {
-      "name": "beasts-of-burdon",
-      "label": "Beasts of Burdon",
-      "path": "packs/beasts-of-burdon.db",
+      "name": "beasts-of-burden",
+      "label": "Beasts of Burden",
+      "path": "packs/beasts-of-burden.db",
       "type": "Actor",
       "system": "basicfantasyrpg"
     },

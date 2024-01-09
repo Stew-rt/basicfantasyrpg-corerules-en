@@ -351,12 +351,16 @@
       "system": "basicfantasyrpg"
     }
   ],
-  "dependencies": [
-    {
-      "name": "basicfantasyrpg",
-      "type": "system"
-    }
-  ],
+  "relationships": {
+    "systems": [{
+      "id": "basicfantasyrpg",
+      "type": "system",
+      "manifest": "https://raw.githubusercontent.com/orffen/basicfantasyrpg/main/system.json",
+      "compatibility": {
+        "verified": "r13"
+      }
+    }]
+  },
   "url": "Populated by github workflow",
   "manifest": "Populated by github workflow",
   "download": "Populated by github workflow"
